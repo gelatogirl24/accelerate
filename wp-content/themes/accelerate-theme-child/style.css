@@ -133,4 +133,37 @@ div.case-study-images img {
 .fa {
    width: 17px !important; 
 }
+/* Form */
+#nf-field-1-container,  #nf-field-2-container {
+	width: 48.5%;
+}
+#nf-field-1-container {
+	float:left;
+}
+#nf-field-2-container {
+	float:right;
+	clear:right;
+}
+input#nf-field-4 {
+	background-color: #45ab9d;
+}
+.nf-form-fields-required {
+	padding-bottom:35px;
+}
+
+.submit-btn {
+    float: right;
+    clear: right;
+}
+.form-width {
+	padding: 0 110px 0 180px;
+}
+.main-content h2 {
+	font-size: 1.45em;
+}
+.main-content p {
+	margin: .5em auto;
+}
+.nf-field-label label {
+    font-weight: 600 !important;
 }
