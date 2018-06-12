@@ -20,9 +20,10 @@ Text Domain:  accelerate-theme-child
     background: #45ab9d;
 }
 .blog-post {
-	width: 50%;
+	width: 45%;
 	float: left;
 	margin-bottom: 2em;
+	/*padding-right:1em;*/
 }
 .blog-post h4 {
 	text-transform: uppercase;
@@ -41,6 +42,13 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+.follow-us {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+	padding-top:20px;
 }
 
 /*Case Studies */
@@ -166,4 +174,113 @@ input#nf-field-4 {
 }
 .nf-field-label label {
     font-weight: 600 !important;
+}
+
+/* About Page */
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    padding: 8em 0;
+	text-align: center;
+    /*height: 580px;*/
+}
+.about-content .main-content p {
+	color:#fff;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	width: 42%;
+}
+.services {
+	margin: 6em 3em;
+}
+.services > h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.services > p {
+	padding-bottom: 5em;
+	text-align: center;
+	width:40%;
+}
+.services-content {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.individual-service {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.individual-service:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.individual-service .service-text:nth-child(even) {
+	margin-right: 40px;
+}
+.individual-service img:nth-child(odd) {
+	margin-right: 40px;
+}
+.service-img img {
+	max-width: 216px;
+}
+.service-text  {
+}
+.service-text h4 {
+	margin: 0;
+}
+.work-with-us {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 2em;
+}
+.work-with-us-content {
+	text-align:center;
+	margin:2em auto;
+}
+.work-with-us-content span {
+	font-weight: bold;
+	font-size: 25px;
+	padding-right:40px;
+}
+.work-with-us-content a {
+	font-size: 20px;
+}
+/* 404 page */
+.error404-page h1, .error404-page h2, .error404-page p {
+	font-family: 'Londrina Solid','Montserrat', 'Open Sans', Arial, sans-serif, cursive;
+}
+.error404-page h1  {
+	font-weight: 900;
+	font-size: 4em;
+	margin: .5em 0 0;
+}
+.error404-page h2  {
+	margin: 0;
+}
+.error404-page a  {
+	display:block;
+	color:#45ab9d;
+}
+/* Twitter Widget */
+
+.PI_SimpleTwitterTweets h3 {
+	font-size: 1.5em;
+}
+.PI_SimpleTwitterTweets ul {
+	list-style: none;
+	margin:0;
+}
+.twitter-feed {
+	width: 45%;
+}
+.twitter-feed h4 {
+	text-transform: uppercase;
+	color: #a6a6a6;
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+input[type="submit"] {
+	background-color:#45ac9d;
+	padding: .5em 4.1em;
+	color:#fff;
 }
